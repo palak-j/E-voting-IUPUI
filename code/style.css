@@ -1,0 +1,198 @@
+/* Basic */
+
+* {
+  box-sizing: border-box;
+}
+.h2 img {
+  float: left;
+  width: 100px;
+  height: 90px;
+
+}
+
+.h2 h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.icon {
+  text-align:left;
+}
+.h2 {
+    border: groove;
+    border-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    margin: auto;
+    width:inherit;
+    padding: 10px;
+    text-align:center;
+    font-variant:inherit;
+    color:whitesmoke;
+    background-color: #961414;
+    font-family: sans-serif;
+  }
+  
+table {
+  border-spacing: 0px;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 15px;
+  background-color: transparent; /* Change the background-color of table here */
+  text-align: center; /* Change the text-alignment of table here */
+}
+
+th {
+  font-weight: bold;
+  border: 1px solid #cccccc; /* Change the border-color of heading here */
+  padding: 8px;
+}
+
+td {
+  border: 1px solid #cccccc; /* Change the border-color of cells here */
+  padding: 8px;
+}
+
+/* Stylized */
+
+/* Adding Striped Effect for odd rows */
+
+tr {
+  background-color: transparent; /* Change the default background-color of rows here */
+}
+
+tr:nth-of-type(2n+1) {
+  background-color: #eeeeee; /* Change the background-color of odd rows here */
+}
+
+tr th {
+  background-color: #dddddd; /* Change the background-color of heading here */
+}
+
+/* Adding Hover Effect for rows */
+
+tr {
+  -moz-transition: background-color 300ms ease-in-out 0s;
+  -ms-transition: background-color 300ms ease-in-out 0s;
+  -o-transition: background-color 300ms ease-in-out 0s;
+  -webkit-transition: background-color 300ms ease-in-out 0s;
+  transition: background-color 300ms ease-in-out 0s;
+}
+
+tr:hover {
+  background-color: #fff176; /* Change the hover background-color of rows here */
+}
+
+/* Removing left and right border of rows for modern UIs */
+
+tr {
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+
+th, td {
+  border: none;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background: #F8F8FF;
+}
+
+label {
+  vertical-align: middle;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: grey;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  background-color: #961414;
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #961414;
+  border: none;
+  border-radius: 5px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+#showPassword {
+  width: 15px;
+  height: 15px;
+}
+
+.button {
+
+    width: 100%;
+    margin: 10px auto 10px;
+    color: floralwhite;
+    background: beige;
+    text-align: center;
+    font-size: 160% ;
+    border: 12px solid grey;
+    border-bottom: navy;
+    padding: 40px;
+    display: inline-block;
+    border-width: 16px;
+    border-style: outset;
+    border-color: -internal
+}
+p {
+ text-align: center;
+line-height: 50px;
+
+}

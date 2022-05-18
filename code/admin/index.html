@@ -1,0 +1,55 @@
+<html>
+
+<head>
+<title>IUPUI E-voting Admin Portal</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+<div class="h2">
+ <img src="//assets.iu.edu/brand/3.2.x/trident-large.png" alt="">
+ <h1>IUPUI's E-Voting Admin Portal<h1><br>
+</div>
+
+<div class="header">
+ <h2>Administrator Login</h2>
+</div>
+
+
+<form action="login.php" method="post">
+		 
+<div class="input-group">
+  <label>Email id:</label>
+  <input type="email" name="email">
+</div>
+<div class="input-group">
+  <label>Password:</label>
+  <input type="password" id="pwd" name="password">
+</div>
+<div class="input-group"> 
+  <input type="checkbox" id="showPassword" onclick="myFunction()">  Show Password
+</div>
+<div class="input-group">
+  <input type="submit" class="btn" name="submit" value="Login">
+</div>
+        
+</form> 
+<br>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("pwd");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
+
+</body>
+</html>
