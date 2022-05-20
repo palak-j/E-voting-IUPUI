@@ -1,8 +1,8 @@
 <?php
 $server = "localhost";
-$username = "vimittal";
-$password = "snowblowers cardio châtelaines masters";
-$database = "vimittal_db";
+$username = "username";
+$password = "password";
+$database = "db_name";
 
 
 // Create connection
