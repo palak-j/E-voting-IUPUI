@@ -1,4 +1,4 @@
-# E-voting-IUPUI
+# Lock-the-vote, An electronic voting system for IUPUI
 
 Link to the project details and demo: <br>
 https://palak-j.github.io/pr13
